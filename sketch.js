@@ -43,6 +43,10 @@ function draw() {
   if(gameState===1){
     game.play()
   }
+  
+  if(gameState===2){
+    game.end()
+  }
 
   // Add conditions for gameStates and playerCount
 
